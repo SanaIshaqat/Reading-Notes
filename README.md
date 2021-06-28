@@ -1,6 +1,6 @@
 # Reading-Notes
 
- ## Growth Mindset 
+## Growth Mindset 
 
 ![Mind](https://onewiththewater.org/owtwwp/wp-content/uploads/2019/11/AdobeStock_56915425-1024x704.jpeg)
 
