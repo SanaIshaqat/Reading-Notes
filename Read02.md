@@ -23,7 +23,7 @@ It's an offline software that is Catagorized as a "CLT" Command Line Interface, 
 
 3. git Push "to update the changes you made and apply them"
 
-*This Way your changes will be applied and tracked and specified *
+*This Way your changes will be applied and tracked and specified*
 
 ### What If you were Unsure of your changes?
 
