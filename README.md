@@ -16,3 +16,5 @@ Read Name | Read URL
 **Growth mindset** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/GrowthMindset)
 **Read01** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read01)
 **Read02** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read02)
+**Read03** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read03)
+**Read04** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read04)
