@@ -18,3 +18,5 @@ Read Name | Read URL
 **Read02** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read02)
 **Read03** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read03)
 **Read04** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read04)
+**Read05** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read05)
+**Read06** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read06)
