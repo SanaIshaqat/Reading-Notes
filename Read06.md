@@ -28,7 +28,7 @@ The internal style is defined inside the <style> element, inside the head sectio
 
 <head>
       <style>
-              p{color: red;}
+              p {color : red;}
       </style>
 </head>         
 

@@ -20,3 +20,4 @@ Read Name | Read URL
 **Read04** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read04)
 **Read05** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read05)
 **Read06** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read06)
+**Read07** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read07)
