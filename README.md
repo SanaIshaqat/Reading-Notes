@@ -11,6 +11,8 @@ I'm an Architect, I graduated from the German Jordanian University, I'm really e
 
 # Table of Contents:
 
+## Reading Notes 102:
+
 Read Name | Read URL
 ------------ | -------------
 **Growth mindset** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/GrowthMindset)
@@ -21,3 +23,23 @@ Read Name | Read URL
 **Read05** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read05)
 **Read06** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read06)
 **Read07** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Read07)
+
+## Reading Notes 201:
+
+Read Name | Read URL
+------------ | -------------
+**Read01** | [Click Here]()
+**Read02** | [Click Here]()
+**Read03** | [Click Here]()
+**Read04** | [Click Here]()
+**Read05** | [Click Here]()
+**Read06** | [Click Here]()
+**Read07** | [Click Here]()
+**Read08** | [Click Here]()
+**Read09** | [Click Here]()
+**Read10** | [Click Here]()
+**Read11** | [Click Here]()
+**Read12** | [Click Here]()
+**Read13** | [Click Here]()
+**Read14** | [Click Here]()
+**Read15** | [Click Here]()
