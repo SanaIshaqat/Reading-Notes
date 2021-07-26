@@ -176,7 +176,7 @@ The <dl> tag defines the description list, the <dt> tag defines the term (name),
 **Box Dimensions:**
 
 
-1. Border
+1. Border (Style, Width, Color)
 
 Every box has a border (even if it is not visible or is specified to
 be 0 pixels wide). The border separates the edge of one box from another.
@@ -189,11 +189,6 @@ adjacent boxes.
 
 Padding is the space between the border of a box and any
 content contained within it. Adding padding can increase the readability of its contents.
-
-
-
-
-
 
 
 **Summary Boxes**
