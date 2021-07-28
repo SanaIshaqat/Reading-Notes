@@ -21,16 +21,16 @@ of the image, the larger the size of the file.
 
 **Color Css:**
 
-#### rgb values:
+### Rgb values:
 These express colors in terms of how much red, green and blue are used to make it up. 
 For example: rgb(100,100,90)
 
-#### hex codes:
+### Hex codes:
 These are six-digit codes that represent the amount of red, green and blue in a color, preceded by a pound or hash #
 sign. 
 For example: #ee3e80
 
-#### color names:
+### Color names:
 There are 147 predefined color names that are recognized by browsers. 
 For example: DarkCyan
 
@@ -68,6 +68,19 @@ indented.
 - You can use pseudo-classes to change the style of an
 element when a user hovers over or clicks on text, or
 when they have visited a link.
+
+
+**Transparency:**
+
+
+- JPEG images don’t support transparency 
+
+- PNG images support transparency in two ways — inserting an alpha channel that allows partial transparency or by declaring a single colour as transparent (index transparency). Partial transparency makes the edges blend smoothly into the background. 
+
+- GIF images support transparency by declaring a single colour in the colour palette as transparent (index transparency). Because of absence of partial transparency, the edges (specially rounded or too-detailed edges) get a poor jagged effect. GIF is unsuitable for images with transparent backgrounds.
+
+
+
 
 
 
