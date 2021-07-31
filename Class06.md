@@ -1,4 +1,4 @@
-# Code 201 Class 05 Reading notes:
+# Code 201 Class 06 Reading notes:
 
 ## JavaScript :
 
