@@ -58,6 +58,8 @@ they will not appear next
 to each other. This is the default
 behavior (unless you tell the
 browser to do something else).
+
+
 **Relative Positioning**
 This moves an element from the
 position it would be in normal
@@ -68,6 +70,8 @@ does not affect the position of
 surrounding elements; they stay
 in the position they would be in
 in normal flow.
+
+
 **Absolute positioning**
 This positions the element
 in relation to its containing
@@ -80,6 +84,8 @@ space it would have taken up).
 Absolutely positioned elements
 move as users scroll up and
 down the page.
+
+
 **Fixed Positioning**
 This is a form of absolute
 positioning that positions
@@ -92,6 +98,8 @@ surrounding elements and they
 do not move when the user
 scrolls up or down the page.
 **Floating Elements**
+
+
 Floating an element allows
 you to take that element out
 of normal flow and position
@@ -142,11 +150,6 @@ pixels (to demonstrate its relevance without scrolling).
 * Grids help create professional and flexible designs.
 * CSS Frameworks provide rules for common tasks.
 * You can include multiple CSS files in one page.
-
-
-
-
-
 
 
 
