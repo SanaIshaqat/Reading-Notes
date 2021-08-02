@@ -35,7 +35,7 @@ Read Name | Read URL
 **Read05** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class05)
 **Read06** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class06)
 **Read07** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class07)
-**Read08** | [Click Here]()
+**Read08** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class08)
 **Read09** | [Click Here]()
 **Read10** | [Click Here]()
 **Read11** | [Click Here]()
