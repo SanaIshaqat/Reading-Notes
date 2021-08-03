@@ -36,10 +36,10 @@ Read Name | Read URL
 **Read06** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class06)
 **Read07** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class07)
 **Read08** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class08)
-**Read09** | [Click Here]()
+**Read09** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class09)
 **Read10** | [Click Here]()
 **Read11** | [Click Here]()
-**Read12** | [Click Here]()
+**Read12** | [Click Here]()s
 **Read13** | [Click Here]()
 **Read14** | [Click Here]()
 **Read15** | [Click Here]()
