@@ -40,6 +40,6 @@ Read Name | Read URL
 **Read10** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class10)
 **Read11** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class11)
 **Read12** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class12)
-**Read13** | [Click Here]()
+**Read13** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/Class13)
 **Read14** | [Click Here]()
 **Read15** | [Click Here]()
