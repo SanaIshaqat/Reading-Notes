@@ -1,118 +1,60 @@
 # Code 401 Class 01 Reading notes:
 
 
-## How to Solve Programming Problems
+## What Array.map() does?
+The Array. map() method allows you to iterate over an array and modify its elements using a callback function. The callback function will then be executed on each of the array's elements.
 
 
-### Common mistakes Programmers make
-When most programmers are given a programming problem in an interview, they make several key mistakes. 
 
- - The most severe of those is the improper allocation of time.
+## what Array.reduce() does?
+The reduce() method executes a user-supplied “reducer” callback function on each element of the array, passing in the return value from the calculation on the preceding element.The final result of running the reducer across all elements of the array is a single value.
 
+## Provide code snippets showing how to use superagent() to fetch data from a URL and log the result:
 
-- The most common mistake I see when conducting interviews or watching someone try to solve a programming problem is they try to start writing code as soon as possible.
+### With normal Promise .then() syntax 
+**From Entrance Exam: Promises**
 
-### A simple set of steps to handle programming problems: 
+* const superagent=require('superagent');
 
-1. Read the problem completely twice.
-Solve the problem manually with 3 sets of sample data.
-2. Optimize the manual steps.
-3. Write the manual steps as comments or pseudo-code.
-4. Replace the comments or pseudo-code with real code.
-5. Optimize the real code.
+const getData =async(req,res)=>{
+const url='https://watches-world.herokuapp.com/watches-list/';
+await superagent.get(url).then(response=>{
+    const responseData=response.body.map(watch=>{
+        return new ApiModel(watch);  
+    })
+    res.send(responseData)
+})
+}
+module.exports={getData} 
 
-**As much as 70% of our time should be spent in steps 1-3.**
+### Again with async / await syntax
 
-
-## Pretend Your Time is Worth $1,000/Hour and You’ll Become 100x More Productive?
-
-You have very few hours here on on this earth.
-Still, many people waste much of their time on pointless, low-quality activities that don’t help them reach their true goals — their mission.
-
-- The truth is, most people value their time at far, far **less** than it’s **worth**.
-
-They say yes to things they have no business doing. They give away their talents, attention, and effort to others who take, take, take.
-
-They spend hours watching low-quality television and social media when they should be productive and effective.
+**From challenge04: Promises**
+const superagent = require('superagent');
+let characters = {};
 
 
-- But what if you placed a high value on your time?
-How would that change you? Your life? Your family? Your future?
+let getCharacters = async () => {
+ await superagent.get(`https://swapi.dev/api/people/`).then(  (data) => {
+   data.body.results.map((item) => {
+      characters[item.name] = item.url; 
+    })
+     console.log(characters);
+  });
+}
 
-Imagine that an hour of your time is worth $1,000.
-What would your life look like?
-What people would you stop putting up with?
-What problems would you stop wasting time on?
-What things would you stop — and start — doing?
-Your results would be incredible. You’d become exponentially more productive, focused, and effective.
-“Most people have no clue what they are doing with their time but still complain that they don’t have enough.” -Grant Cardone, NYT best-selling author
-
-## How to think like a programmer?
-
-Problem solving is the meta-skill.
-
-Unless you have a system, this is probably how you “solve” problems (which is what I did when I started coding):
-
-- Try a solution.
-- If that doesn’t work, try another one.
-- If that doesn’t work, repeat step 2 until you luck out.
+getCharacters();
 
 
-**The best way involves a) having a framework and b) practicing it.**
+## Explain promises as though you were mentoring a Code 301 level student
 
-**1. Understand**
+JavaScript is single threaded, meaning that two bits of script cannot run at the same time; they have to run one after another. A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
-Know exactly what is being asked. Most hard problems are hard because you don’t understand them (hence why this is the first step).
+## Are all callback functions considered to be Asynchronous? Why or Why Not?
 
-
-**2. Plan** 
-Don’t dive right into solving without a plan (and somehow hope you can muddle your way through). Plan your solution!
-
-To get a good plan, answer this question:
-
-“Given input X, what are the steps necessary to return output Y?”
-
-Sidenote: Programmers have a great tool to help them with this… Comments!
-
-**3. Divide**
-Pay attention. This is the most important step of all.
-
-Do not try to solve one big problem. You will cry.
-
-Instead, break it into sub-problems. These sub-problems are much easier to solve.
-
-**4. Stuck?**
-
-The difference is the best programmers/problem-solvers are more curious about bugs/errors than irritated.
-
-In fact, here are three things to try when facing a whammy:
-
-- Debug
-- Reassess 
-- Sidenote
-- Research
-- Caveat
-
-**Practice**
-
-Don’t expect to be great after just one week. If you want to be a good problem-solver, solve a lot of problems!
-
-## The 5 Whys?
-The method is remarkably simple: when a problem occurs, you drill down to its root cause by asking "Why?" five times. Then, when a counter-measure becomes apparent, you follow it through to prevent the issue from recurring.
-
-**5 Whys Example (Single Lane)**
-
-
-![](https://www.mindtools.com/media/Diagrams/5_Whys_Figure_1_Single_Lane.jpg) 
-
-**5 Whys Example (Multiple Lanes)**
-
-![](https://www.mindtools.com/media/Diagrams/5_Whys_Figure_2_multiple_lanes.jpg) 
+Simply taking a callback doesn't make a function asynchronous. There are many examples of functions that take a function argument but are not asynchronous.It iterates over each item and calls the function once per item. This can be used among other things to calculate total value from a property of each item.
 
 
 #### Want To Know More ? 
-
-- [How to Solve Programming Problems](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
-- [Your Time is Worth $1,000/Hour?](https://medium.com/swlh/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-f04628bb3e6d)
-- [How to think like a programmer?](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
-- [5 Whys](https://www.mindtools.com/pages/article/newTMC_5W.htm)
+- [W3Schools](https://www.w3schools.com/js/)
+- [asynchronous programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
