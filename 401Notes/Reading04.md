@@ -25,21 +25,29 @@ This allows programs to be written in a declarative and composable style, where 
 
 **object-oriented programming (OOP)**
 Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+
 **class**
 A JavaScript class is a blueprint for creating objects. A class encapsulates data and functions that manipulate data. Unlike other programming languages such as Java and C#, JavaScript classes are syntactic sugar over the prototypal inheritance.
+
 **super**
 What is super () in JavaScript?
 The super keyword is used to access and call functions on an object's parent. The super. prop and super[expr] expressions are valid in any method definition in both classes and object literals.
+
 **this**
 The value that this stores is the current execution context of the JavaScript program. Thus, when used inside a function this's value will change depending on how that function is defined, how it is invoked and the default execution context.
+
 **Test Driven Development (TDD)**
 Test Driven Development (TDD) is software development approach in which test cases are developed to specify and validate what the code will do.
+
 **Jest**
 Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly.
+
 **Continuous Integration (CI)**
 CI and CD stand for continuous integration and continuous delivery/continuous deployment. In very simple terms, CI is a modern software development practice in which incremental code changes are made frequently and reliably.
+
 **REST**
 The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+
 **Data Model**
 JSON objects and arrays in the ABL are based on the objects and arrays of the JavaScript data model. JavaScript objects are associative arrays. Object property names can be any Unicode string. Properties and their values can be added, changed, or deleted at runtime.
 
