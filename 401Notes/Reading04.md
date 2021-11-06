@@ -1,5 +1,27 @@
 # Code 401 Class 04 Reading notes:
 
+## SQL vs NoSQL Database Key Differences
+
+- SQL databases are relational, NoSQL databases are non-relational.
+- SQL databases use structured query language and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+- SQL databases are vertically scalable, while NoSQL databases are horizontally scalable.
+- SQL databases are table-based, while NoSQL databases are document, key-value, graph, or wide-column stores.
+- SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data like documents or JSON.
+
+
+Once you’ve decided on SQL or NoSQL databases, you need to get your data moved into them. Data migration is a complex process that may present serious challenges. If you’re running into bottlenecks in this operation, Xplenty’s Extract, Transform, Load (ETL) platform helps with automated functionality and a visual, no-code interface for data pipeline building. 
+
+### Database Exapmles: 
+
+## SQL database examples: 
+MySql, Oracle, Sqlite, **Postgres** and MS-SQL. 
+
+### NoSQL database examples: 
+**MongoDB**, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j and CouchDb
+
+## Sequelize
+Sequelize is a promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more.
+
 ## Review, Research, and Discussion
 
 ### Name 3 advantages to Test Driven Development
@@ -64,3 +86,8 @@ JSON objects and arrays in the ABL are based on the objects and arrays of the Ja
 -postgres
 ### What are you most excited about trying to implement or see how it works?
 Link Database that has all types of info on postgres and have different ways to access it.
+
+
+#### Want To Know More ? 
+- [SQL vs NOSQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
+- [Sequelize](https://sequelize.org/master/)
