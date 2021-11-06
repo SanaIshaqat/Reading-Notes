@@ -8,7 +8,8 @@ Linked list is a sequence of Nodes that are connected/linked to each other. The 
 ### Singly: 
 Singly refers to the number of references the node has. A singly linked list means that there is only one reference, and the reference points to the next node.
 
-### Doubly: Doubly refers to there being two (double) references within the node. A doubly linked list means that there is a reference to both the next and additionally the previous node.
+### Doubly: 
+Doubly refers to there being two (double) references within the node. A doubly linked list means that there is a reference to both the next and additionally the previous node.
 
 
 ### Traversing
@@ -144,3 +145,7 @@ The rest parameter syntax allows a function to accept an indefinite number of ar
 
 **Data Model**
 JSON objects and arrays in the ABL are based on the objects and arrays of the JavaScript data model. JavaScript objects are associative arrays. Object property names can be any Unicode string. Properties and their values can be added, changed, or deleted at runtime.
+
+#### Want To Know More ? 
+- [TheBigO](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html)
+- [Linked Lists](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/singly_linked_list.html)
