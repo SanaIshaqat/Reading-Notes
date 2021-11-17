@@ -2,26 +2,32 @@
 
 ## Trees
 
-# Trees
 
 ## Why
-### Using trees is a way to create a data structure that mimics a "yes/no" decision making process. resource
+Using trees is a way to create a data structure that mimics a "yes/no" decision making process. resource
 
 ## What
-### "Trees can have any number of children per node, but Binary Trees restrict the number of children to two (hence our left and right children)."
+"Trees can have any number of children per node, but Binary Trees restrict the number of children to two (hence our left and right children)."
 
-### K-ary Trees: If nodes have more than 2 child nodes, then it is a K-ary Tree.
+K-ary Trees: If nodes have more than 2 child nodes, then it is a K-ary Tree.
 
 ## Terms
 
-### Node: A component that may contain it's own value and references to the other node.
-### Root: The node at the beginning of the tree
-### K: The number that specifies the maximum number of children any node may have in a k-ary tree. K=2 for a binary tree
-### Left: Reference to one child node in a binary tree
-### Right: Reference to the other child node in a binary tree
-### Edge: The link between a parent and child node
-### Leaf: A node that does not have any children
-### Height: The number of edges from root to the furthest leaf.
+**Node**: A component that may contain it's own value and references to the other node.
+
+**Root**: The node at the beginning of the tree
+
+**K**: The number that specifies the maximum number of children any node may have in a k-ary tree. K=2 for a binary tree.
+
+**Left**: Reference to one child node in a binary tree.
+
+**Right**: Reference to the other child node in a binary tree.
+
+**Edge**: The link between a parent and child node.
+
+**Leaf**: A node that does not have any children.
+
+**Height**: The number of edges from root to the furthest leaf.
 
 
 ## How
