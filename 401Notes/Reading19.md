@@ -1,4 +1,4 @@
-# Code 401 Class 18 Reading notes:
+# Code 401 Class 19 Reading notes:
 
 ## AWS: Events
 
