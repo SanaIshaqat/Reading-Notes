@@ -109,3 +109,4 @@ Read Name | Read URL
 **Reading30** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/401Notes/Reading30)
 **Reading31** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/401Notes/Reading31)
 **Reading32** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/401Notes/Reading32)
+**Reading33** | [Click Here](https://sanaishaqat.github.io/Reading-Notes/401Notes/Reading33)
